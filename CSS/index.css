@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    padding: none;
+    font-family: 'Epilogue', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: var(--Medium_Gray);
+    margin-right: 30px;
+}
+
+.nav button{
+    background-color: var(--Almost_White);
+    padding: 13px 25px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    border: 1px solid var(--Medium_Gray);
+    
+    
+}
+.nav .nav-left{
+    padding-right: 490px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.main .main-text{
+    width: 50%;
+    
+}
+.main .main-text h1{
+    align-items: center;
+    font-size: 6rem;
+    font-weight: 700;
+    padding: 60px 50px 30px 110px;
+}
+.main .main-text p{
+    padding: 0px 160px 30px 110px;
+    font-size: 1.4rem;
+    color: var(--Medium_Gray);
+}
+.main .main-text button{
+    margin: 0px 160px 30px 110px;
+    padding: 10px 22px;
+    border-radius: 10px;
+    background: var(--Almost_Black);
+    color: var(--Almost_White);
+    font-weight: 550;
+}
+.main .main-text .main-text-brands{
+    padding: 60px 50px 30px 110px;
+    
+}
+.main .main-text .main-text-brands img{
+    margin-right: 30px;
+    width: 63px;
+    height: 16px;
+}
+.main .main-image{
+    width: 35%;    
+    display: flex;
+}
+.main .main-image .main-image-position{
+    width: 330px;
+    height: 95%;
+    background-image: url(/Imagenes/image-hero-desktop.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: right;
+    padding: 50px;
+}
