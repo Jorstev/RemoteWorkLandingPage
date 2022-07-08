@@ -27,7 +27,7 @@ html{
 .nav .nav-link{
     text-decoration: none;
     color: var(--Medium_Gray);
-    margin-right: 30px;
+    margin-right: 75px;
 }
 
 .nav a:hover{
@@ -49,7 +49,7 @@ html button:hover{
     
 }
 .nav .nav-left{
-    padding-right: 490px;
+    padding-right: 800px;
     display: flex;
 }
 
@@ -66,40 +66,41 @@ html button:hover{
 }
 .main .main-text h1{
     align-items: center;
-    font-size: 6rem;
+    font-size: 9rem;
     font-weight: 700;
-    padding: 80px 50px 30px 110px;
+    padding: 200px 50px 60px 110px;
 }
 .main .main-text p{
-    padding: 0px 160px 30px 110px;
-    font-size: 1.4rem;
+    padding: 0px 160px 60px 110px;
+    font-size: 2.7rem;
     color: var(--Medium_Gray);
 }
 .main .main-text button{
     margin: 0px 160px 30px 110px;
-    padding: 10px 22px;
+    padding: 15px 40px;
     border-radius: 10px;
     background: var(--Almost_Black);
     color: var(--Almost_White);
-    font-weight: 550;
+    font-weight: 400;
+    font-size: 2.7rem;
 }
 .main .main-text .main-text-brands{
     padding: 60px 50px 30px 110px;
     
 }
 .main .main-text .main-text-brands img{
-    margin-right: 30px;
-    width: 63px;
-    height: 16px;
+    margin-right: 50px;
+    width: 103px;
+    height: 25px;
 }
 .main .main-image{
     width: 35%;    
     display: flex;
 }
-.main .main-image .main-image-position{
-    width: 330px;
-    height: 95%;
-    background-image: url(/Imagenes/image-hero-desktop.png);
+.main .main-image .main-image-position img{
+    width: 100%;
+    height: 100%;
+    
     background-size: cover;
     background-position: center;
     justify-content: right;
@@ -127,9 +128,7 @@ html button:hover{
     text-decoration: none;  
     padding: 7px;    
 }
-/*.dropdown-list a:hover{
-    color: var(--Almost_Black);
-}*/
+
 
 .nav .nav-left .nav-icon{
     margin-right: 15px;
@@ -138,7 +137,7 @@ html button:hover{
 
 
 #list-items-features{
-    left: 90px;
+   
     display: none;
     min-width: 140px;
 }
