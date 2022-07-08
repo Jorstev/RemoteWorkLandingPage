@@ -108,11 +108,8 @@ html button:hover{
 }
 
 .dropdown-list {  
-    
-    
     position: absolute;
-    background-color: white;  
-    
+    background-color: white;   
     text-align: center;
     font-size: 1.4rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -122,14 +119,11 @@ html button:hover{
 }  
 
 .dropdown-list a {  
-    display: block;
-      
+    display: block; 
     color: var(--Medium_Gray);  
     text-decoration: none;  
     padding: 7px;    
 }
-
-
 .nav .nav-left .nav-icon{
     margin-right: 15px;
 }
