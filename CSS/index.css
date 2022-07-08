@@ -101,7 +101,6 @@ html button:hover{
 .main .main-image .main-image-position img{
     width: 100%;
     height: 100%;
-    
     background-size: cover;
     background-position: center;
     justify-content: right;
