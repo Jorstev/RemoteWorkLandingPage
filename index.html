@@ -15,17 +15,79 @@
     <link rel="stylesheet" href="CSS/index.css" />
     <title>Snap Landing Page</title>
   </head>
+  <script>
+
+    
+    function show_hideFeatures() {
+      var clickFeatures = document.getElementById("list-items-features");
+      if (clickFeatures.style.display === "none") {
+        clickFeatures.style.display = "block";
+      } else {
+        clickFeatures.style.display = "none";
+      }
+    }
+    function show_hideCompany() {
+      var clickCompany = document.getElementById("list-items-company");
+      if (clickCompany.style.display === "none") {
+        clickCompany.style.display = "block";
+      } else {
+        clickCompany.style.display = "none";
+        window.onclick;
+      }
+    }
+  </script>
   <body>
     <nav class="nav">
       <div><img src="Imagenes/logo.svg" alt="snap-logo" /></div>
       <div class="nav-left">
-        <a href="#">Features ∨</a>
-        <a href="#">Company ∨</a>
-        <a href="#">Careers</a>
-        <a href="#">About</a>
+        <div>
+          <a class="nav-link" onclick="show_hideFeatures()" href="#"
+            >Features <img src="Imagenes/icon-arrow-down.svg" alt=""
+          /></a>
+          <div class="dropdown-list" id="list-items-features">
+            <a href="#"
+              ><img
+                class="nav-icon"
+                src="Imagenes/icon-todo.svg"
+                alt="Calendar"
+              />
+              Todo List</a
+            >
+            <a href="#"
+              ><img class="nav-icon" src="Imagenes/icon-calendar.svg" alt="" />
+              Calendar</a
+            >
+            <a href="#"
+              ><img class="nav-icon" src="Imagenes/icon-reminders.svg" alt="" />
+              Reminders</a
+            >
+            <a href="#"
+              ><img class="nav-icon" src="Imagenes/icon-planning.svg" alt="" />
+              Planning</a
+            >
+          </div>
+        </div>
+
+        <div>
+          <a class="nav-link" onclick="show_hideCompany()" href="#"
+            >Company <img src="Imagenes/icon-arrow-down.svg" alt=""
+          /></a>
+          <div class="dropdown-list" id="list-items-company">
+            <a href="#">History</a>
+            <a href="#">Our Team</a>
+            <a href="#">Blog</a>
+          </div>
+        </div>
+
+        <div>
+          <a class="nav-link" href="#">Careers</a>
+        </div>
+        <div>
+          <a class="nav-link" href="#">About</a>
+        </div>
       </div>
       <div class="nav-right">
-        <a href="#">Login</a>
+        <a class="nav-link" href="#">Login</a>
         <button>Register</button>
       </div>
     </nav>
@@ -49,15 +111,14 @@
         </div>
         <div class="main-text-brands">
           <img src="Imagenes/client-databiz.svg" alt="databiz" />
+
           <img src="Imagenes/client-audiophile.svg" alt="audiophile" />
           <img src="Imagenes/client-meet.svg" alt="meet" />
           <img src="Imagenes/client-maker.svg" alt="maker" />
         </div>
       </div>
       <div class="main-image">
-        <div class="main-image-position">
-
-        </div>
+        <div class="main-image-position"></div>
       </div>
     </main>
   </body>

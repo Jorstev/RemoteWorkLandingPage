@@ -9,24 +9,31 @@ html{
     padding: none;
     font-family: 'Epilogue', sans-serif;
     scroll-behavior: smooth;
+    
 }
 
 .nav{
     height: 100px;
     display: flex;
     justify-content: space-between;
-    margin-right: 20px;
     font-size: 1.4rem;
     align-items: center;
     text-decoration: none;
     padding: 10px 20px;
+    position: relative;
     
 }
 
-.nav a{
+.nav .nav-link{
     text-decoration: none;
     color: var(--Medium_Gray);
     margin-right: 30px;
+}
+
+.nav a:hover{
+    color: var(--Almost_Black);
+    cursor: pointer;
+   
 }
 
 .nav button{
@@ -35,11 +42,15 @@ html{
     border-radius: 10px;
     font-size: 1.4rem;
     border: 1px solid var(--Medium_Gray);
-    
+}
+
+html button:hover{
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
 .nav .nav-left{
     padding-right: 490px;
+    display: flex;
 }
 
 .main{
@@ -57,7 +68,7 @@ html{
     align-items: center;
     font-size: 6rem;
     font-weight: 700;
-    padding: 60px 50px 30px 110px;
+    padding: 80px 50px 30px 110px;
 }
 .main .main-text p{
     padding: 0px 160px 30px 110px;
@@ -94,3 +105,48 @@ html{
     justify-content: right;
     padding: 50px;
 }
+
+.dropdown-list {  
+    
+    
+    position: absolute;
+    background-color: white;  
+    
+    text-align: center;
+    font-size: 1.4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}  
+
+.dropdown-list a {  
+    display: block;
+      
+    color: var(--Medium_Gray);  
+    text-decoration: none;  
+    padding: 7px;    
+}
+/*.dropdown-list a:hover{
+    color: var(--Almost_Black);
+}*/
+
+.nav .nav-left .nav-icon{
+    margin-right: 15px;
+}
+
+
+
+#list-items-features{
+    left: 90px;
+    display: none;
+    min-width: 140px;
+}
+
+#list-items-company{
+    display: none;
+    min-width: 120px;
+    text-align: left;
+    padding-left: 25px;
+}
+
